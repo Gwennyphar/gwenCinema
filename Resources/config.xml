@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="../../../../engine/Shopware/Components/Plugin/schema/config.xsd">
+  <elements>
+    <element required="true" type="boolean" scope="shop">
+      <name>gwen_plugin_io</name>
+      <label lang="de">Plugin aktivieren</label>
+      <label lang="en">Enable plugin</label>
+      <value>true</value>
+      <description lang="de"></description>
+      <description lang="en"></description>
+    </element>
+    
+    <element required="false" type="text" scope="shop">
+      <name>gwen_title</name>
+      <label lang="de">Überschrift</label>
+      <label lang="en">Überschrift</label>
+      <value>Demo Seite</value>
+      <description lang="de"></description>
+      <description lang="en"></description>
+    </element>
+
+    <element required="false" type="text" scope="shop">
+      <name>gwen_ytp_id</name>
+      <label lang="de">Youtube-ID</label>
+      <label lang="en">Youtube-ID</label>
+      <value>SvIRoxBidHE</value>
+      <description lang="de"></description>
+      <description lang="en"></description>
+    </element>
+  </elements>
+</config>
