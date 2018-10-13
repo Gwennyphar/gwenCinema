@@ -12,10 +12,19 @@
     </element>
     
     <element required="false" type="text" scope="shop">
+      <name>gwen_controller_page</name>
+      <label lang="de">Seitentitel</label>
+      <label lang="en">Page titel</label>
+      <value>Youtube</value>
+      <description lang="de"></description>
+      <description lang="en"></description>
+    </element>
+    
+    <element required="false" type="text" scope="shop">
       <name>gwen_title</name>
       <label lang="de">Überschrift</label>
       <label lang="en">Überschrift</label>
-      <value>Demo Seite</value>
+      <value>Dokumentation Akte CCC Chaos Computer Club</value>
       <description lang="de"></description>
       <description lang="en"></description>
     </element>
@@ -24,7 +33,7 @@
       <name>gwen_ytp_id</name>
       <label lang="de">Youtube-ID</label>
       <label lang="en">Youtube-ID</label>
-      <value>SvIRoxBidHE</value>
+      <value>ODxcnUsVTRw</value>
       <description lang="de"></description>
       <description lang="en"></description>
     </element>

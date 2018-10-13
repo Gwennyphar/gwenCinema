@@ -65,6 +65,13 @@ class Controller implements SubscriberInterface {
     }
     
     /**
+     * Check if page has title
+     */
+    if($this->pluginConfig['gwen_controller_page']) {
+      $view->assign('gwen_controller_page', $this->pluginConfig['gwen_controller_page'] );
+    }
+    
+    /**
      * Check if header has title
      */
     if($this->pluginConfig['gwen_title']) {
